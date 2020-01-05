@@ -30,6 +30,9 @@ element-size = 160px
     #add-habit-element
         background-color: rgba(0,0,0,0.3)
         position relative
+    #other-habit-element
+        background-color: green
+
     #plus-svg
         height 3em
         width 3em
@@ -39,3 +42,12 @@ element-size = 160px
         transform translate(-50%, -50%)
         rect
             fill rgba(99,33,255,0.7)
+
+@media only screen and (min-width: 600px)
+    #gridcontent
+        grid-template-columns: auto auto auto;
+
+
+@media only screen and (min-width: 820px)
+    #gridcontent
+        grid-template-columns: auto auto auto auto;
