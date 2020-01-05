@@ -1,0 +1,41 @@
+// gridcontent styles
+element-margin = 1em
+element-size = 160px
+#gridcontent
+    overflow-y: scroll
+    display inline-grid
+    grid-template-columns: auto auto;
+    justify-content: center
+    grid-template-rows: element-size
+    grid-gap element-margin
+    background-color orange
+    width: 100%
+    height: 'calc(100vh - %s)' % banner-height
+    padding element-margin
+    box-sizing: border-box
+    a
+        cursor: pointer
+        display: inline-block
+
+    .habit-element
+        height element-size
+        width element-size
+        background-size: cover
+        background-position center
+    
+    #carrot-habit
+        background-image: url("img/carrot-icon.png")
+    #cog-habit
+        background-image: url("img/cog-icon.png")
+    #add-habit-element
+        background-color: rgba(0,0,0,0.3)
+        position relative
+    #plus-svg
+        height 3em
+        width 3em
+        position absolute
+        top 50%
+        left 50%
+        transform translate(-50%, -50%)
+        rect
+            fill rgba(99,33,255,0.7)
