@@ -1,0 +1,14 @@
+{
+  "name": "Carrot Habit Manifest",
+  "short_name": "carrot",
+  "icons": [{
+    "src": "img/carrot-icon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }],
+  "lang": "en-US",
+  "start_url": "/carrothabit.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white"
+}
